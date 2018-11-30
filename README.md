@@ -171,7 +171,7 @@ This will render:
 
 You can mix and match as you need. This can be put at the root of your project and all components in your projects will be configured from that Theme. Themes can also be nested, so you can separate individual pieces of your application with its own Themes. This makes BEM a lot more flexible, especially when you want to share components across various projects.
 
-Copyright 2017 Digirati Limited
+**Copyright 2018 Digirati Limited**
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this
 software and associated documentation files (the "Software"), to deal in the Software
