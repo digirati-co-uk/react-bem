@@ -1,6 +1,6 @@
 # React BEM
 
-A small library for creating React components using the [http://getbem.com/](BEM) methodology.
+A small library for creating React components using the [BEM](http://getbem.com/) methodology.
 
 The React components created using this library are stateless and pure, they should be used in other stateful components. This allows the BEM components to be reused and also built in isolation.
 
