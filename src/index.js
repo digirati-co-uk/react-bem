@@ -133,7 +133,7 @@ function componentFactory(blockOrElement) {
                   .join(' '),
                 ...blockOrElement.defaultProps,
                 ...Object.keys(props).reduce((extraProps, propKey) => {
-                  if (!blockOrElement.modifiers.indexOf(propKey) === -1) {
+                  if (blockOrElement.modifiers.indexOf(propKey) === -1) {
                     extraProps[propKey] = props[propKey];
                   }
                   return extraProps;
